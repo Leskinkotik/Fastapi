@@ -4,8 +4,8 @@ router = APIRouter()
 
 @router.get("/user")
 async def read_items():
-    return [{"user_name" : "Pierre"}, {"user_name" : "Jaque"}]
+    return [{"user_name" : "Adriane"}, {"user_name" : "Lesia"}]
 
 @router.get("/user_all")
 async def get_all():
-    return[{"hello" : "fadwa"}, {"good" : "girl"}]
+    return[{"CouCou" : "Hello World"}, {"All" : "super"}]
